@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/myself-shamim/' // Set to your repo name for GitHub Pages
+  base: '/myself-shamim' // Set to your repo name for GitHub Pages
 })

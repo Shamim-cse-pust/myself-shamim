@@ -16,11 +16,8 @@ const Hero = () => {
           Software Engineer <span style={{ color: '#b2b7d0', fontWeight: 400 }}>| Brain Station 23 PLC</span>
         </h2>
         <p style={{ color: "#b2b7d0" }}>
-          I build digital experiences and tools to make daily life easier.
+          I build digital experiences and tools to make daily life easier.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.
         </p>
-        <a href="#about" className="btn">
-          Download Resume
-        </a>
       </div>
       <div>
         <img src={profileImg} alt="Profile" />
