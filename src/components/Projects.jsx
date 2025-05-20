@@ -98,19 +98,23 @@ const Projects = () => {
   return (
     <section id="projects" className="projects common">
       <h2>Projects</h2>
-      <div className="projects-grid">
+      <div className="education-grid">
         {projects.map((proj, i) => (
-          <div key={i} className="project-card">
+          <div key={i} className="edu-card">
             <h3 className="project-title">{proj.title}</h3>
-            <p className="project-desc">{proj.desc}</p>
-            <a
-              href={proj.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn github-btn"
-            >
-              {githubTag}
-            </a>
+            <p className="edu-institute">{proj.desc}</p>
+            <ul className="edu-details">
+              <li>
+                <a
+                  href={proj.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn github-btn"
+                >
+                  {githubTag}
+                </a>
+              </li>
+            </ul>
           </div>
         ))}
       </div>

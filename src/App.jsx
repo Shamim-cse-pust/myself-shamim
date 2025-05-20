@@ -5,6 +5,8 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import CompetitiveProgramming from "./components/CompetitiveProgramming";
+import AwardAndAchievement from "./components/AwardAndAchievement";
 import Certifications from "./components/Certifications";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
@@ -17,9 +19,11 @@ const App = () => {
       <main>
         <Hero />
         <About />
+        <Education />
         <Skills />
         <Projects />
-        <Education />
+        <CompetitiveProgramming />
+        <AwardAndAchievement />
         <Certifications />
         <Contact />
       </main>

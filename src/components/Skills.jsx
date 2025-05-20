@@ -116,7 +116,7 @@ const skillCategories = [
 const Skills = () => {
   return (
     <section id="skills" className="skills common">
-      <h2>Skills</h2>
+      <h2>Technical Skills</h2>
       {skillCategories.map((cat) => (
         <div
           key={cat.category}
