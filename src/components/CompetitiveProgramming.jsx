@@ -9,6 +9,79 @@ const CompetitiveProgramming = () => {
       <h2>Competitive Skills And Experience</h2>
       <div className="cp-grid">
         <div className="cp-card">
+          <h3>Problem Solving Experience</h3>
+          <div className="cp-detail-row">
+            <span className="cp-desc">
+              Participated in more than 200 contests on Codeforces, Codechef,
+              Leetcode, Atcoder
+            </span>
+          </div>
+          <div className="cp-detail-row">
+            <span className="cp-desc">
+              Solved more than 2000 problems on Codeforces, UVA, Codechef,
+              Atcoder, LightOJ, Spoj, Leetcode
+            </span>
+          </div>
+          <div className="cp-detail-row cp-profiles-row">
+            <span className="cp-desc">
+              Problem Solving Profiles:{" "}
+              <a
+                href="https://codeforces.com/profile/Failure_404"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Codeforces"
+              >
+                <i className="devicon-codeforces-plain cp-icon"></i> Codeforces
+              </a>{" "}
+              •{" "}
+              <a
+                href="https://uhunt.onlinejudge.org/id/988613"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="UVA"
+              >
+                <i className="devicon-c-plain cp-icon"></i> UVA
+              </a>{" "}
+              •{" "}
+              <a
+                href="https://leetcode.com/u/Shamim_cse_pust/"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Leetcode"
+              >
+                <i className="devicon-leetcode-plain cp-icon"></i> Leetcode
+              </a>{" "}
+              •{" "}
+              <a
+                href="https://lightoj.com/user/shamim1999mi"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="LightOJ"
+              >
+                <i className="devicon-lightoj-plain cp-icon"></i> LightOJ
+              </a>{" "}
+              •{" "}
+              <a
+                href="https://www.hackerrank.com/profile/shamim19999miah"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="HackerRank"
+              >
+                <i className="devicon-hackerrank-plain cp-icon"></i> HackerRank
+              </a>{" "}
+              •{" "}
+              <a
+                href="https://www.codechef.com/users/shamim_mia"
+                target="_blank"
+                rel="noopener noreferrer"
+                title="Codechef"
+              >
+                <i className="devicon-codechef-plain cp-icon"></i> Codechef
+              </a>
+            </span>
+          </div>
+        </div>
+        <div className="cp-card">
           <h3>ACM ICPC/NCPC Experience</h3>
           <div className="cp-detail-row">
             <span className="cp-year">2023</span>
@@ -77,79 +150,6 @@ const CompetitiveProgramming = () => {
             <span className="cp-desc">
               Contestant at KYAU National Hackathon 2023, Khawaja Yunus Ali
               University
-            </span>
-          </div>
-        </div>
-        <div className="cp-card">
-          <h3>Problem Solving Experience</h3>
-          <div className="cp-detail-row">
-            <span className="cp-desc">
-              Participated in more than 200 contests on Codeforces, Codechef,
-              Leetcode, Atcoder
-            </span>
-          </div>
-          <div className="cp-detail-row">
-            <span className="cp-desc">
-              Solved more than 1500 problems on Codeforces, UVA, Codechef,
-              Atcoder, LightOJ, Spoj, Leetcode
-            </span>
-          </div>
-          <div className="cp-detail-row cp-profiles-row">
-            <span className="cp-desc">
-              Problem Solving Profiles:{" "}
-              <a
-                href="https://codeforces.com/profile/Failure_404"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Codeforces"
-              >
-                <i className="devicon-codeforces-plain cp-icon"></i> Codeforces
-              </a>{" "}
-              •{" "}
-              <a
-                href="https://uhunt.onlinejudge.org/id/988613"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="UVA"
-              >
-                <i className="devicon-c-plain cp-icon"></i> UVA
-              </a>{" "}
-              •{" "}
-              <a
-                href="https://leetcode.com/u/Shamim_cse_pust/"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Leetcode"
-              >
-                <i className="devicon-leetcode-plain cp-icon"></i> Leetcode
-              </a>{" "}
-              •{" "}
-              <a
-                href="https://lightoj.com/user/shamim1999mi"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="LightOJ"
-              >
-                <i className="devicon-lightoj-plain cp-icon"></i> LightOJ
-              </a>{" "}
-              •{" "}
-              <a
-                href="https://www.hackerrank.com/profile/shamim19999miah"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="HackerRank"
-              >
-                <i className="devicon-hackerrank-plain cp-icon"></i> HackerRank
-              </a>{" "}
-              •{" "}
-              <a
-                href="https://www.codechef.com/users/shamim_mia"
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Codechef"
-              >
-                <i className="devicon-codechef-plain cp-icon"></i> Codechef
-              </a>
             </span>
           </div>
         </div>
