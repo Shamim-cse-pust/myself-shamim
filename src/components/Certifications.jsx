@@ -2,7 +2,7 @@ import React from "react";
 
 const Certifications = () => {
   return (
-    <section id="certifications" className="certifications">
+    <section id="certifications" className="certifications common">
       <h2>Certifications</h2>
       <ul>
         <li>
