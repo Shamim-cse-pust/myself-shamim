@@ -542,12 +542,188 @@ main > section:first-child {
     gap: 0.2rem;
     padding: 0.3rem 0.1rem;
   }
-  .cp-year, .cp-title {
+  .cp_year, .cp_title {
     min-width: unset;
     font-size: 1rem;
   }
-  .cp-desc {
+  .cp_desc {
     font-size: 1rem;
+  }
+}
+
+/* Certifications Section */
+.certifications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+.certificate-card {
+  background: #181c2a;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px 0 #0003;
+  padding: 1.5rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  border-left: 5px solid #3db6ff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.certificate-card:hover {
+  box-shadow: 0 8px 32px 0 #0006;
+  transform: translateY(-4px) scale(1.03);
+}
+.certificate-title {
+  color: #3db6ff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.certificate-date {
+  color: #b2b7d0;
+  font-size: 1.05rem;
+  margin-bottom: 0.2rem;
+}
+.certificate-link {
+  margin-top: 0.5rem;
+  background: #23263a;
+  color: #3db6ff;
+  border: 1px solid #3db6ff;
+  font-weight: 600;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  padding: 0.4rem 1.1rem;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+  display: inline-block;
+}
+.certificate-link:hover {
+  background: #3db6ff;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .certifications-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .certificate-card {
+    padding: 1rem 0.5rem;
+  }
+}
+
+/* Personal Details Section */
+.personal-details-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: 1.5rem;
+}
+.personal-details-grid,
+.personal-social-grid {
+  background: #181c2a;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px 0 #0005;
+  padding: 2.2rem 2rem 2rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  border-left: 5px solid #3db6ff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.personal-details-grid {
+  gap: 0.5rem;
+}
+.personal-details-grid:hover,
+.personal-social-grid:hover {
+  box-shadow: 0 8px 32px 0 #0008;
+  transform: translateY(-4px) scale(1.02);
+}
+.personal-details-card-title {
+  color: #3db6ff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.personal-detail-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+  background: rgba(61, 182, 255, 0.07);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+}
+.personal-detail-label {
+  color: #3db6ff;
+  font-weight: 600;
+  font-size: 1.08rem;
+  min-width: 120px;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+.personal-detail-value {
+  color: #b2b7d0;
+  font-size: 1.08rem;
+  font-weight: 500;
+  text-align: left;
+  word-break: break-word;
+}
+.personal-social-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.personal-social-link {
+  color: #b2b7d0;
+  font-size: 1.08rem;
+  font-weight: 500;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  background: rgba(61, 182, 255, 0.07);
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+.personal-social-link:hover {
+  background: #3db6ff;
+  color: #fff;
+  box-shadow: 0 4px 16px 0 #0003;
+}
+.personal-social-icon {
+  font-size: 1.4em;
+  color: #3db6ff;
+  min-width: 1.4em;
+  display: inline-block;
+}
+.personal-social-title {
+  color: #3db6ff; /* Use a distinct accent color, e.g. orange/yellow */
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.1rem;
+  letter-spacing: 1px;
+  text-align: left;
+}
+@media (max-width: 900px) {
+  .personal-details-2col {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .personal-details-grid,
+  .personal-social-grid {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+  }
+}
+@media (max-width: 700px) {
+  .personal-details-grid,
+  .personal-social-grid {
+    padding: 1rem 0.5rem;
   }
 }
 
@@ -659,5 +835,70 @@ main > section:first-child {
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 0.4rem;
+  }
+}
+
+/* References Section */
+.references-section {
+  margin-top: 2.5rem;
+}
+.references-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.reference-card {
+  background: #181c2a;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px 0 #0003;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  border-left: 5px solid #3db6ff;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.reference-card:hover {
+  box-shadow: 0 8px 32px 0 #0006;
+  transform: translateY(-4px) scale(1.03);
+}
+.reference-name {
+  color: #3db6ff;
+  font-size: 1.18rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+.reference-title {
+  color: #fff;
+  font-size: 1.08rem;
+  font-weight: 600;
+}
+.reference-dept, .reference-univ {
+  color: #b2b7d0;
+  font-size: 1.05rem;
+}
+.reference-contact {
+  color: #b2b7d0;
+  font-size: 1.05rem;
+  margin-top: 0.2rem;
+}
+.reference-label {
+  color: #3db6ff;
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+.reference-email {
+  color: #3db6ff;
+  text-decoration: underline;
+  font-weight: 500;
+}
+@media (max-width: 700px) {
+  .references-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .reference-card {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
   }
 }
