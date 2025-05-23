@@ -2,6 +2,16 @@ import React from "react";
 
 const projects = [
   {
+    title: "project-laravel-admin-ms",
+    desc: "Admin Microservice Backend for management system built with Laravel.",
+    url: "https://github.com/Shamim-cse-pust/project-laravel-admin-ms",
+  },
+  {
+    title: "project-react-admin-ms",
+    desc: "Admin Microservice Frontend for management system built with React and TypeScript.",
+    url: "https://github.com/Shamim-cse-pust/project-react-admin-ms",
+  },
+  {
     title: "myself-shamim",
     desc: "Personal portfolio website built with React and Vite.",
     url: "https://github.com/Shamim-cse-pust/myself-shamim",
@@ -12,17 +22,7 @@ const projects = [
     url: "https://github.com/Shamim-cse-pust/payment-gateway-integration",
   },
   {
-    title: "project-laravel-admin-ms",
-    desc: "Admin management system built with Laravel.",
-    url: "https://github.com/Shamim-cse-pust/project-laravel-admin-ms",
-  },
-  {
-    title: "project-react-admin-ms",
-    desc: "Admin management system built with React and TypeScript.",
-    url: "https://github.com/Shamim-cse-pust/project-react-admin-ms",
-  },
-  {
-    title: "E-commerce_with_Blog_Django_website",
+    title: "E-commerce with Blog Django website",
     desc: "E-commerce website with blog using Django.",
     url: "https://github.com/Shamim-cse-pust/E-commerce_with_Blog_Django_website",
   },
@@ -73,23 +73,19 @@ const Projects = () => {
   return (
     <section id="projects" className="projects common">
       <h2>Projects</h2>
-      <div className="education-grid">
+      <div className="projects-grid">
         {projects.map((proj, i) => (
-          <div key={i} className="edu-card">
+          <div key={i} className="project-card">
             <h3 className="project-title">{proj.title}</h3>
-            <p className="edu-institute">{proj.desc}</p>
-            <ul className="edu-details">
-              <li>
-                <a
-                  href={proj.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="btn github-btn"
-                >
-                  {githubTag}
-                </a>
-              </li>
-            </ul>
+            <p className="project-desc">{proj.desc}</p>
+            <a
+              href={proj.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn github-btn"
+            >
+              {githubTag}
+            </a>
           </div>
         ))}
       </div>

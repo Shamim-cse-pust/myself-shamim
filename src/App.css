@@ -81,17 +81,22 @@ header {
 }
 .nav-links li a:hover, .nav-links li button:hover {
   background: #3b82f6;
+  border-radius: 50%;
   color: #fff;
   box-shadow: 0 4px 16px 0 #0002;
 }
 .nav-links li.active a {
-  background: #3b82f6;
+  background: linear-gradient(90deg, #3db6ff 0%, #0439e7 100%);
   color: #fff;
-  box-shadow: 0 4px 16px 0 #0002;
-  border-radius: 18px; /* Add more rounding for a modern look */
-  font-weight: 700;
-  outline: 2px solid #3db6ff33;
-  transition: background 0.2s, color 0.2s, box-shadow 0.2s, outline 0.2s, border-radius 0.2s;
+  box-shadow: 0 6px 24px 0 #0439e755;
+  border-radius: 22px;
+  font-weight: 800;
+  outline: 2.5px solid #fff2;
+  outline-offset: 0.5px;
+  letter-spacing: 1.2px;
+  transform: scale(1.08);
+  border: none;
+  transition: background 0.25s, color 0.2s, box-shadow 0.2s, outline 0.2s, border-radius 0.2s, transform 0.2s;
 }
 .nav-links li:last-child {
   margin-right: 5rem;
@@ -158,8 +163,6 @@ header {
   width: 270px;
   height: 270px;
   object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 4px 32px 0 #0004;
   max-width: 100%;
   z-index: 2;
 }
@@ -678,7 +681,7 @@ main > section:first-child {
   font-weight: 600;
   font-size: 1.08rem;
   min-width: 120px;
-  text-align: right;
+  text-align: left;
   padding-right: 0.5rem;
 }
 .personal-detail-value {

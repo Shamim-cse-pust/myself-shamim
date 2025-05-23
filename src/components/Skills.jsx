@@ -27,6 +27,7 @@ const skillCategories = [
       { name: "Node.js", icon: "<i class='devicon-nodejs-plain'></i>" },
       { name: "FastAPI", icon: "<i class='devicon-fastapi-plain'></i>" },
       { name: "Laravel", icon: "<i class='devicon-laravel-plain'></i>" },
+      { name: "Moodle", icon: "<i class='devicon-moodle-plain'></i>" },
       { name: "Django", icon: "<i class='devicon-django-plain'></i>" },
       { name: "Next.js", icon: "<i class='devicon-nextjs-plain'></i>" },
       { name: "React", icon: "<i class='devicon-react-original'></i>" },
@@ -142,7 +143,7 @@ const Skills = () => {
                 ) : (
                   <div
                     className="skill-icon"
-                    style={{ fontSize: "2.1rem", color: "#b2b7d0" }}
+                    // style={{ fontSize: "2.1rem", color: "#b2b7d0" }}
                   >
                     {skill.name[0]}
                   </div>

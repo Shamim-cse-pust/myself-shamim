@@ -9,7 +9,6 @@ import CompetitiveProgramming from "./components/CompetitiveProgramming";
 import AwardAndAchievement from "./components/AwardAndAchievement";
 import Certifications from "./components/Certifications";
 import Experience from "./components/Experience";
-import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
 import PersonalDetails from "./components/PersonalDetails";
