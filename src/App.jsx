@@ -8,6 +8,7 @@ import Education from "./components/Education";
 import CompetitiveProgramming from "./components/CompetitiveProgramming";
 import AwardAndAchievement from "./components/AwardAndAchievement";
 import Certifications from "./components/Certifications";
+import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
@@ -22,6 +23,7 @@ const App = () => {
         <Hero />
         <About />
         <Education />
+        <Experience />
         <Skills />
         <Projects />
         <CompetitiveProgramming />
@@ -29,7 +31,6 @@ const App = () => {
         <Certifications />
         <PersonalDetails />
         <References />
-        <Contact />
       </main>
       <Footer />
     </>
